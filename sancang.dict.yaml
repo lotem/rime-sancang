@@ -3661,7 +3661,6 @@ min_phrase_weight: 100
 鸜	bgz
 𦛘	bgz
 𮭠	bgz
-𦝂	bh
 胉	bha
 𣎯	bha
 𬂗	bha
@@ -3705,6 +3704,7 @@ min_phrase_weight: 100
 胝	bhi
 𠕵	bhi
 𤨽	bhi
+𦝂	bhi
 𦞒	bhi
 𦞙	bhi
 𦠱	bhi
@@ -7586,7 +7586,6 @@ min_phrase_weight: 100
 𬬋	cgw
 䤲	cgz
 𬱇	cgz
-𫒫	ch
 㒶	cha
 鉑	cha
 錉	cha
@@ -7673,6 +7672,7 @@ min_phrase_weight: 100
 𨪈	chi
 𨬻	chi
 𩗩	chi
+𫒫	chi
 𬫌	chi
 𭚾	chi
 釺	chj
@@ -10943,6 +10943,7 @@ min_phrase_weight: 100
 𣓛	dhp
 𣓽	dhp
 𣔪	dhp
+𣖯	dhp
 𣖰	dhp
 𣜷	dhp
 𣝳	dhp
@@ -12203,7 +12204,6 @@ min_phrase_weight: 100
 棯	dop
 𢠗	dop
 𣑰	dop
-𣖯	dop
 𣜴	dop
 𪬯	dop
 𭪣	dop
@@ -24157,7 +24157,7 @@ min_phrase_weight: 100
 頳	gzz
 𪁌	gzz
 丿	h
-的	h
+竹	h
 白	ha
 𱷳	ha
 㿟	haa
@@ -24305,6 +24305,7 @@ min_phrase_weight: 100
 𰤓	hah
 㿝	hai
 㿧	hai
+的	hai
 皊	hai
 皒	hai
 皭	hai
@@ -26651,7 +26652,6 @@ min_phrase_weight: 100
 𲍥	hgz
 幷	hh
 𠂆	hh
-𫂇	hh
 𰀪	hh
 軄	hha
 𠙊	hha
@@ -26806,6 +26806,8 @@ min_phrase_weight: 100
 𠝵	hhh
 𢒢	hhh
 𥭇	hhh
+𥴒	hhh
+𥷹	hhh
 𨈘	hhh
 𨈾	hhh
 𨉱	hhh
@@ -26834,6 +26836,7 @@ min_phrase_weight: 100
 𨉗	hhi
 𨉵	hhi
 𨊒	hhi
+𫂇	hhi
 𫏪	hhi
 𬕆	hhi
 𬕜	hhi
@@ -36382,6 +36385,7 @@ min_phrase_weight: 100
 𭏙	ipg
 𭏿	ipg
 𰐏	ipg
+𢎉	iph
 𢦠	iph
 𪊖	iph
 𪋋	iph
@@ -36428,7 +36432,6 @@ min_phrase_weight: 100
 䴫	ipl
 鄜	ipl
 𢈤	ipl
-𢎉	ipl
 𪊔	ipl
 𪊫	ipl
 𪊼	ipl
@@ -36456,7 +36459,6 @@ min_phrase_weight: 100
 𬸄	ipm
 㼾	ipn
 麂	ipn
-𢎉	ipn
 𤬩	ipn
 𪊋	ipn
 𪊌	ipn
@@ -41620,7 +41622,6 @@ min_phrase_weight: 100
 𬏭	kgz
 𱱧	kgz
 犭	kh
-𤷭	kh
 㹮	kha
 㹺	kha
 狛	kha
@@ -42000,6 +42001,7 @@ min_phrase_weight: 100
 𤠭	khi
 𤣗	khi
 𤣝	khi
+𤷭	khi
 𤹬	khi
 𤻦	khi
 𤼜	khi
@@ -57460,13 +57462,13 @@ min_phrase_weight: 100
 𭓁	ndg
 𰌢	ndg
 𡥩	ndh
-𪦼	ndh
 𰌜	ndh
 𰌭	ndh
 𡥓	ndi
 𡦕	ndi
 𧏄	ndi
 𪦷	ndi
+𪦼	ndi
 𪧄	ndi
 𭒸	ndi
 𭒺	ndi
@@ -64073,7 +64075,6 @@ min_phrase_weight: 100
 𬿋	olk
 介	oll
 伸	oll
-竹	oll
 𠁭	oll
 𠆯	oll
 𠌕	oll
@@ -64088,7 +64089,6 @@ min_phrase_weight: 100
 佛	oln
 刢	oln
 瓴	oln
-竹	oln
 𠄖	oln
 𠛲	oln
 𥫧	oln
@@ -64655,8 +64655,6 @@ min_phrase_weight: 100
 𣱤	onn
 𤬰	onn
 𥫮	onn
-𥴒	onn
-𥷹	onn
 𧆦	onn
 𫢖	onn
 𬼠	onn
@@ -70701,7 +70699,6 @@ min_phrase_weight: 100
 捇	qgz
 擷	qgz
 𢷓	qgz
-𢯊	qh
 拍	qha
 捪	qha
 揝	qha
@@ -70799,6 +70796,7 @@ min_phrase_weight: 100
 𡬨	qhi
 𢩻	qhi
 𢫻	qhi
+𢯊	qhi
 𢱚	qhi
 𢱜	qhi
 𢲌	qhi
@@ -74257,7 +74255,7 @@ min_phrase_weight: 100
 鷕	rgz
 𭋴	rgz
 𭌍	rgz
-啲	rh
+𪠿	rh
 㕷	rha
 㖧	rha
 㗍	rha
@@ -74340,6 +74338,7 @@ min_phrase_weight: 100
 䶸	rhi
 呧	rhi
 哦	rhi
+啲	rhi
 嘚	rhi
 𠲍	rhi
 𠷕	rhi
@@ -75184,6 +75183,7 @@ min_phrase_weight: 100
 𭊩	rmg
 呀	rmh
 𠿗	rmh
+𥯵	rmh
 𫪂	rmh
 䗍	rmi
 呍	rmi
@@ -75269,7 +75269,6 @@ min_phrase_weight: 100
 𠴼	rmn
 𡁓	rmn
 𡂲	rmn
-𥯵	rmn
 𭇎	rmn
 𭉿	rmn
 𭊧	rmn
@@ -75681,7 +75680,6 @@ min_phrase_weight: 100
 𠴒	rol
 𠵴	rol
 𣂵	rol
-𪠿	rol
 𭈁	rol
 𱒟	rol
 𠰋	rom
@@ -75708,7 +75706,6 @@ min_phrase_weight: 100
 𠼵	ron
 𡃍	ron
 𧿀	ron
-𪠿	ron
 𫪥	ron
 𭈖	ron
 𰇒	ron
@@ -79902,7 +79899,6 @@ min_phrase_weight: 100
 𩬖	shh
 𩭒	shh
 𩭘	shh
-𩭲	shh
 𩭹	shh
 𭃦	shh
 𰄡	shh
@@ -79929,6 +79925,7 @@ min_phrase_weight: 100
 𩬨	shi
 𩭃	shi
 𩭝	shi
+𩭲	shi
 𩮚	shi
 𩮿	shi
 𩯄	shi
@@ -80050,7 +80047,6 @@ min_phrase_weight: 100
 𠚥	shn
 𠚮	shn
 𤭀	shn
-𥯵	shn
 𩫴	shn
 𩫶	shn
 𩬛	shn
@@ -80714,7 +80710,6 @@ min_phrase_weight: 100
 𦕀	sjh
 𦕆	sjh
 𦕈	sjh
-𦖡	sjh
 𦗖	sjh
 耺	sji
 耾	sji
@@ -80726,6 +80721,7 @@ min_phrase_weight: 100
 𦕇	sji
 𦕑	sji
 𦕹	sji
+𦖡	sji
 𦖶	sji
 𦗅	sji
 𦗽	sji
@@ -84077,8 +84073,8 @@ min_phrase_weight: 100
 𪇼	tgz
 𱂗	tgz
 𱉅	tgz
-菂	th
 𠀗	th
+𫇸	th
 䔤	tha
 苩	tha
 萫	tha
@@ -84199,6 +84195,7 @@ min_phrase_weight: 100
 茋	thi
 莪	thi
 莵	thi
+菂	thi
 萟	thi
 蒐	thi
 蘶	thi
@@ -86631,7 +86628,6 @@ min_phrase_weight: 100
 𦵋	tol
 𨞫	tol
 𨞿	tol
-𫇸	tol
 𰲑	tol
 𲆙	tol
 䔘	tom
@@ -86665,7 +86661,6 @@ min_phrase_weight: 100
 𦼃	ton
 𧁴	ton
 𫇧	ton
-𫇸	ton
 𬜱	ton
 𬝒	ton
 𮎡	ton
