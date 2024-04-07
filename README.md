@@ -23,6 +23,10 @@
 
 其他字母與輔助字形與蒼頡六代一致
 
+![蒼頡六代鍵盤](images/cangjie6-keyboard.jpg)
+
+![蒼頡檢字法·輔助字形](images/cangjie6-fuzhu-zixing.jpg)
+
 ## 取碼方法
 
 每字取首、次、尾三碼
