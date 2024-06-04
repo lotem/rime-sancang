@@ -50,4 +50,17 @@
 
 [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install lotem/rime-sancang`
 
+## 安裝三碼蒼頡·簡化字方案
+
+```
+bash rime-install lotem/rime-sancang essay-simp pinyin-simp
+bash rime-install lotem/rime-octagram-data@hans lotem/rime-octagram-data
+```
+
+``` yaml
+patch:
+  schema_list/+:
+    - schema: sancang_simp
+```
+
 授權條款：見 [LICENSE](LICENSE)

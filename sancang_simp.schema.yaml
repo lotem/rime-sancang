@@ -1,0 +1,97 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: sancang_simp
+  name: 三码仓颉·简化字
+  version: '1.0'
+  author:
+    - 三苍法师 <https://github.com/lotem>
+  description: |
+    三码苍颉，由雪斋、惜缘等整理的苍颉六代构词码码表
+    结合 IDS data 的汉字结构信息推导出来。
+    原作为朱邦复、沈红莲创造的苍颉检字法。
+
+  dependencies:
+    - pinyin_simp
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " ;'"
+
+translator:
+  dictionary: sancang_simp
+  prism: sancang_simp
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片··|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+
+# abc_segmentor:
+#   extra_tags:
+#     - reverse_lookup
+
+reverse_lookup:
+  dictionary: pinyin_simp
+  prism: pinyin_simp
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+
+__patch:
+  # 使用八股文简化字模型
+  - grammar:/hans?
+  # 用家自选配置
+  - sancang_simp.custom:/patch?
