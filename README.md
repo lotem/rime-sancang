@@ -4,6 +4,8 @@
 
 [Rime](https://rime.im) 三碼蒼頡輸入方案
 
+[【三码苍颉】法力如何？键藏塔加持、三苍法师现场演示](https://www.bilibili.com/video/BV1xwhXzDEez/)
+
 ## 三碼蒼頡簡介
 
 三碼蒼頡，由雪齋、惜緣等整理的 [蒼頡六代構詞碼碼表][1]
