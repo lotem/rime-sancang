@@ -4,8 +4,6 @@
 
 [Rime](https://rime.im) 三碼蒼頡輸入方案
 
-[【三码苍颉】法力如何？键藏塔加持、三苍法师现场演示](https://www.bilibili.com/video/BV1xwhXzDEez/)
-
 ## 三碼蒼頡簡介
 
 三碼蒼頡，由雪齋、惜緣等整理的 [蒼頡六代構詞碼碼表][1]
@@ -16,7 +14,11 @@
 [1]: https://github.com/LEOYoon-Tsaw/Cangjie6
 [2]: https://github.com/cjkvi/cjkvi-ids
 
-## 蒼頡字母變更
+### 視頻演示
+
+  - [【三码苍颉】法力如何？键藏塔加持、三苍法师现场演示](https://www.bilibili.com/video/BV1xwhXzDEez/)
+
+### 蒼頡字母變更
 
 本方案在蒼頡六代基礎上做以下變更
 
@@ -29,7 +31,7 @@
 
 ![蒼頡檢字法·輔助字形](images/cangjie6-fuzhu-zixing.jpg)
 
-## 取碼方法
+### 取碼方法
 
 每字取首、次、尾三碼
 
@@ -40,7 +42,7 @@
 
 其他規則與蒼頡六代一致；唯每字「只取三碼」故，不需要考慮反字身規則
 
-## 方案特點
+### 方案特點
 
 本方案支持詞句連書、自動調整詞頻、記憶新詞
 
@@ -52,7 +54,7 @@
 
 [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install lotem/rime-sancang`
 
-## 安裝三碼蒼頡·簡化字方案
+### 安裝三碼蒼頡·簡化字方案
 
 ```
 bash rime-install lotem/rime-sancang essay-simp pinyin-simp
