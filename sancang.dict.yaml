@@ -2638,6 +2638,7 @@ min_phrase_weight: 100
 𮪨	bbm
 𱰙	bbm
 𲌒	bbm
+剮	bbn
 䯌	bbn
 䯒	bbn
 骩	bbn
@@ -2659,6 +2660,7 @@ min_phrase_weight: 100
 𰮸	bbn
 𱭂	bbn
 𲌐	bbn
+歄	bbo
 㽰	bbo
 䯉	bbo
 䯐	bbo
@@ -2833,6 +2835,7 @@ min_phrase_weight: 100
 𩨓	bby
 𩨯	bby
 𩩦	bby
+䫚	bbz
 顝	bbz
 骵	bbz
 鵬	bbz
@@ -5027,12 +5030,10 @@ min_phrase_weight: 100
 𮠊	brl
 𫛲	brm
 㓮	brn
-剮	brn
 𠜛	brn
 𤭁	brn
 𦛺	brn
 𦛽	brn
-歄	bro
 腞	bro
 𣤍	bro
 𬁽	bro
@@ -5070,7 +5071,6 @@ min_phrase_weight: 100
 𡜝	brv
 𩟨	brv
 𠖐	brw
-䫚	brz
 鵰	brz
 𩒗	brz
 𪀭	brz
