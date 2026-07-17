@@ -61,9 +61,12 @@ bash rime-install lotem/rime-sancang essay-simp pinyin-simp
 bash rime-install lotem/rime-octagram-data@hans lotem/rime-octagram-data
 ```
 
+### 啓用輸入方案
+
 ``` yaml
 patch:
   schema_list/+:
+    - schema: sancang
     - schema: sancang_simp
 ```
 
